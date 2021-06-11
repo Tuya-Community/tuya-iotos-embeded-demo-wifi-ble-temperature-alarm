@@ -26,7 +26,7 @@
 #include "BkDriverUart.h"
 /* Private includes ----------------------------------------------------------*/
 #include "tuya_device.h"
-#include "app_temperature_alarm.h"
+#include "tuya_app_temperature_alarm.h"
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 #define UART_BUFSZ             512

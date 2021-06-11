@@ -15,9 +15,9 @@
 #include "uni_thread.h"
 #include "uni_log.h"
 /* Private includes ----------------------------------------------------------*/
-#include "b3950_100k.h"
-#include "app_temperature_alarm.h"
-#include "buzzer.h"
+#include "tuya_b3950_100k.h"
+#include "tuya_app_temperature_alarm.h"
+#include "tuya_buzzer.h"
 /* Private variables ---------------------------------------------------------*/
 DP_VALUE_T set_alarm_temper_s = {
     .dp_id = DP_ALARM_TEMPER_SET,

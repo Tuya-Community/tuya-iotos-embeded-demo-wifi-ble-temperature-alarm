@@ -10,8 +10,8 @@
  * @LastEditTime: 2021-05-26 18:50:14
  */
 
-#ifndef __APP_TEMPERATURE_ALARM_H__
-#define __APP_TEMPERATURE_ALARM_H__
+#ifndef __TUYA_APP_TEMPERATURE_ALARM_H__
+#define __TUYA_APP_TEMPERATURE_ALARM_H__
 
 #ifdef __cplusplus
 extern "C" {

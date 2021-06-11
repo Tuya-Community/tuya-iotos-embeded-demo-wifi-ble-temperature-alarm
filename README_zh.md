@@ -31,18 +31,18 @@ $ git clone https://registry.code.tuya-inc.top/hardware_developer/tuya-iotos-emb
 ### 文件介绍
 ```
 ├── src	
-|    ├── app_driver
-|    |    └── b3950_10k.c            //温度传感器驱动相关
-|    |    └── buzzer.c            //无源蜂鸣器驱动相关
+|    ├── tuya_app_driver
+|    |    └── tuya_b3950_10k.c            //温度传感器驱动相关
+|    |    └── tuya_buzzer.c            //无源蜂鸣器驱动相关
 |    ├── tuya_device.c             //应用层入口文件
-|    └── app_temperature_alarm.c            //主要应用层
+|    └── tuya_app_temperature_alarm.c            //主要应用层
 |
 ├── include				//头文件目录
 |    ├── app_driver
-|    |    └──b3950_10k.h
-|    |    └──buzzer.h
+|    |    └──tuya_b3950_10k.h
+|    |    └──tuya_buzzer.h
 |    ├── tuya_device.h
-|    └── app_temperature_alarm.h
+|    └── tuya_app_temperature_alarm.h
 |
 └── output              //编译产物
 ```

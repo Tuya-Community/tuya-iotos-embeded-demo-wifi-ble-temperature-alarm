@@ -11,7 +11,7 @@
  */
 /* Includes ------------------------------------------------------------------*/
 #include "tuya_timer.h"
-#include "buzzer.h"
+#include "tuya_buzzer.h"
 /* Private define -----------------------------------------------------------*/
 #define buzzer_pin  17
 /* Private variables ---------------------------------------------------------*/
